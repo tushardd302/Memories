@@ -24,12 +24,12 @@ To get the Memories MERN Website up and running on your local machine, follow th
   ```
 2. Install Dependencies:
    - For the server:
-    ```bash
+    ```
     cd server
     npm install
     ```
    - For the client:
-    ```bash
+    ```
     cd client
     npm install
     ```
@@ -38,11 +38,11 @@ To get the Memories MERN Website up and running on your local machine, follow th
   Update the environment variables in the .env file, including MongoDB connection details and JWT secret.
 4. Running the Application:
    - In the server directory, run the Express server:
-  ```bash
+  ```
   npm start
   ```
    - In the client directory, run the React development server:
-  ```bash
+  ```
   npm start
   ```
 5. Access the website at http://localhost:3000.
