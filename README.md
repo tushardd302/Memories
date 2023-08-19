@@ -38,13 +38,13 @@ To get the Memories MERN Website up and running on your local machine, follow th
   Update the environment variables in the .env file, including MongoDB connection details and JWT secret.
 4. Running the Application:
    - In the server directory, run the Express server:
-  ```
-  npm start
-  ```
+    ```
+    npm start
+    ```
    - In the client directory, run the React development server:
-  ```
-  npm start
-  ```
+    ```
+    npm start
+    ```
 5. Access the website at http://localhost:3000.
 6. Authentication Setup:
   Configure your Google API credentials for the sign-in with Google feature.
