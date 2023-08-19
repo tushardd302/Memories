@@ -1,5 +1,8 @@
-# Memories MERN Website
-Memories MERN Website is a full-stack application built using the MERN (MongoDB, Express, React, Redux, Node.js) stack. It seamlessly integrates a user-friendly frontend interface with a powerful backend, allowing users to effortlessly manage and explore their memories. From signing up to sharing moments, from liking memories to personalizing them, this platform offers a range of features that cater to users' desire for reliving and preserving their experiences.
+<img src=https://github.com/AbdelrhmanReda17/Memories-Website/assets/90706154/945c316d-7ef4-4c92-a661-cf596ac36541 alt="drawing" width="300"/>
+<img src=https://github.com/AbdelrhmanReda17/Memories-Website/assets/90706154/7b272be1-b64a-4172-83e4-1241c92fcb8f alt="drawing" height='50' width="50"/>
+
+## About
+A full-stack application built using the MERN (MongoDB, Express, React, Redux, Node.js) stack. It seamlessly integrates a user-friendly frontend interface with a powerful backend, allowing users to effortlessly manage and explore their memories. From signing up to sharing moments, from liking memories to personalizing them, this platform offers a range of features that cater to users' desire for reliving and preserving their experiences.
 
 ## Features
 User Authentication: Register for an account or log in using your email and password. Alternatively, you can quickly sign in using your Google account for added convenience.
@@ -53,3 +56,5 @@ To get the Memories MERN Website up and running on your local machine, follow th
 Contributions are welcome! If you have suggestions, enhancements, or bug fixes, please feel free to submit pull requests or create issues in the repository.
 ## License
 This project is licensed under the MIT License.
+
+Note: This project is inspired by and based on the content from the [JavaScript Mastery YouTube course](https://www.youtube.com/watch?v=ngc9gnGgUdA&list=PL6QREj8te1P7VSwhrMf3D3Xt4V6_SRkhu). The original course material and guidance provided invaluable insights into building this Memories MERN Website.
