@@ -4,9 +4,10 @@ import * as api from "../api/index.js";
 
 export const signin = (formData , navigate) => async (dispatch) => {
   try {
+    console.log("Hi");
     const { data } = await api.signIn(formData);
       dispatch({ type: AUTH,  data });
-      console.log(data);
+      console.log("hii");
       navigate('/');
   } catch (error) {
     console.log(error.message);

@@ -9,7 +9,7 @@ const auth = async (req, res, next) => {
     let decodedData;
 
     if (token && isCustomAuth) {      
-      decodedData = jwt.verify(token, process.env.SECRET);
+      decodedData = jwt.verify(token, 'test');
 
       req.userId = decodedData?.id;
     } else {
@@ -25,3 +25,5 @@ const auth = async (req, res, next) => {
 };
 
 export default auth;
+
+// process.env.SECRET

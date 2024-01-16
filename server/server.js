@@ -28,7 +28,7 @@ app.use('/posts' , postsRoutes);
 // Mongose DB
 const PORT = process.env.PORT || 5000;
 
-mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser : true , useUnifiedTopology : true})
+mongoose.connect("mongodb+srv://memories:memories@cluster0.55llx.mongodb.net/", {useNewUrlParser : true , useUnifiedTopology : true})
     .then( () => app.listen(PORT , () => console.log(` Server Runnging on port :  ${PORT}`)))
     .catch( (err) => console.log(err.message));
 
